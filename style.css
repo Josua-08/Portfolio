@@ -173,3 +173,42 @@ footer {
   .hero h1 { font-size: 2.2rem; }
   .hero p { font-size: 1rem; }
 }
+
+.project-img {
+  width: 100%;         /* Bild maximal so breit wie die Karte */
+  max-height: 250px;   /* Begrenze Höhe, damit es nicht zu groß wird */
+  object-fit: cover;   /* Zuschneiden ohne Verzerrung */
+  border-radius: 12px;
+  margin: 1rem 0;      /* Abstand über und unter dem Bild */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #111;
+  transition: transform 0.3s ease-out;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  transition: transform 0.3s ease-out;
+}
+
+.project {
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  cursor: pointer; /* interaktive Wirkung */
+}
+
+.project:hover {
+  transform: translateY(-10px) scale(1.03); /* leichtes Vergrößern beim Hover */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+  background: linear-gradient(135deg, #f9f9f9, #e0e5ff); /* subtiler Farbverlauf */
+}
+
