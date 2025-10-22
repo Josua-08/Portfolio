@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Josua — Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<!-- FontAwesome für Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -14,57 +16,138 @@
     <div class="logo">JOSUA</div>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Hero Section -->
-<div class="hero">
-  <h1 class="fade-in">Hi, I’m Josua.</h1>
-  <p class="fade-in">I started my programming journey in order to create clean and seemless web experiences. Passionate about coding, design, and basketball.</p>
-  <a href="#projects" class="btn fade-in">See my work</a>
-</div>
+  <div class="hero">
+    <h1 class="fade-in">Hi, I’m Josua</h1>
+    <p class="fade-in">Developer, Basketball Player & Lifelong Learner</p>
+    <a href="#projects" class="btn fade-in">See my work</a>
+  </div>
+</header>
 
 <!-- About Section -->
 <section id="about">
   <h2>About Me</h2>
-  <p>Hi, I’m Josua, 18 years old. I’m a student and developer passionate about minimalistic design, clean code, and smooth web experiences. I love combining my technical skills with creative design to build elegant solutions.</p>
-  <p>Besides coding, I’m a basketball player and currently studying Data Science and AI. I enjoy team sports, staying active, and applying discipline and strategy both on the court and in my projects.</p>
-  <p>In my free time, I like exploring new technologies, creating small web games, and refining my portfolio projects.</p>
+  <div class="about-content fade-in">
+    <p>Hey! I’m Josua, 18 years old — a student and aspiring developer. I’m learning every day to get better at coding, especially Python, and I enjoy experimenting with small projects and games.</p>
+
+    <p>I spend a lot of time in <strong>the gym 🏀</strong> trying to perfect my craft. I’m inspired by players like <strong>Kobe Bryant</strong> and <strong>Kyrie Irving</strong>, who have worked or always work hard to get better.</p>
+
+    <p>In my free time, I also enjoy fitness 💪, running 🏃‍♂️, and staying active. I like trying new sports and challenges, and I see every experience as a chance to learn something new.</p>
+  </div>
 </section>
 
+
+
+<!-- Skills Section -->
+<section id="skills">
+  <h2>Skills & Tools</h2>
+  <div class="skills-container">
+    <div class="skill fade-in" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png');">
+      <div class="skill-overlay">
+        <i class="fab fa-python"></i>
+        <p>Python (Basics)</p>
+        <span>Learning daily, exploring web scraping and small games.</span>
+      </div>
+    </div>
+
+    <div class="skill fade-in" style="background-image: url('https://www.designtagebuch.de/wp-content/uploads/mediathek//2021/10/unity-symbol.jpg');">
+      <div class="skill-overlay">
+        <i class="fab fa-unity"></i>
+        <p>Unity / Game Dev</p>
+        <span>Building games, experimenting with C# and mechanics.</span>
+      </div>
+    </div>
+
+    <div class="skill fade-in" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png');">
+      <div class="skill-overlay">
+        <i class="fas fa-code"></i>
+        <p>C# (Basics)</p>
+        <span>Learning the fundamentals, coding small projects daily.</span>
+      </div>
+    </div>
+
+    <div class="skill fade-in" style="background-image: url('https://cdn.pagerduty.com/wp-content/uploads/2020/07/eng_blog_imperialism_linguistics.png');">
+      <div class="skill-overlay">
+        <i class="fas fa-language"></i>
+        <p>English</p>
+        <span>Strong command, applying skills in coding & communication.</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Projects Section -->
 <section id="projects">
   <h2>Projects</h2>
   <div class="project-grid">
+
     <div class="project fade-in">
-  <h3>Guess the Number</h3>
-  <img src="images/number-guessing-game.png" alt="Guess the Number Game Screenshot" class="project-img">
-  <p>A Python/Flask web game to practice backend development. Built as a beginner-friendly project to learn web integration.</p>
-  <a href="http://127.0.0.1:5000/" target="_blank">GitHub Repo</a>
-</div>
-  <div class="project fade-in">
-  <h3>Portfolio Website</h3>
-  <img src="images/kobe.jpg" alt="Portfolio Website Screenshot" class="project-img">
-  <p>This Apple-inspired portfolio website, built with HTML, CSS, and JS. Designed to showcase projects in a minimal and elegant style.</p>
-  <a href="https://josua-08.github.io/Portfolio/" target="_blank">Live Site</a>
-</div>
+      <h3>Guess the Number</h3>
+      <img src="images/number-guessing-game.png" alt="Guess the Number Screenshot" class="project-img">
+      <p>A Python/Flask web game to practice backend development. Beginner-friendly project to learn web integration.</p>
+      <a href="https://github.com/josua/guess-number" target="_blank">GitHub Repo</a>
+    </div>
+
+    <div class="project fade-in">
+      <h3>Portfolio Website</h3>
+      <img src="images/kobe.jpg" alt="Portfolio Website Screenshot" class="project-img">
+      <p>My Apple-inspired portfolio website, built with HTML, CSS, and JavaScript. Designed to showcase projects with elegance, minimalism, and interactive animations.</p>
+      <a href="https://josua.github.io/portfolio" target="_blank">Live Site</a>
+    </div>
+
+    <div class="project fade-in">
+      <h3>Web Scraper</h3>
+      <img src="images/web_scraper.PNG" alt="Web Scraper Screenshot" class="project-img">
+      <p>Basic Python scraper that collects information from websites and saves it in a text document. Here is the site I scraped from for reference:</p>
+      <a href="https://quotes.toscrape.com/" target="_blank">GitHub Repo</a>
+    </div>
 
   </div>
 </section>
 
+<!-- Hobbies & Sports Section -->
+<section id="hobbies">
+  <h2>Hobbies & Sports</h2>
+  <div class="hobbies-container">
+    <div class="hobby fade-in">
+      <div class="hobby-icon"><i class="fas fa-basketball-ball"></i></div>
+      <h3>Basketball 🏀</h3>
+      <p>Daily in the gym, perfecting my craft.</p>
+    </div>
+
+    <div class="hobby fade-in">
+      <div class="hobby-icon"><i class="fas fa-dumbbell"></i></div>
+      <h3>Fitness 💪</h3>
+      <p>Almost daily in the gym building strength, endurance, and focus.</p>
+    </div>
+
+    <div class="hobby fade-in">
+      <div class="hobby-icon"><i class="fas fa-running"></i></div>
+      <h3>Running 🏃‍♂️</h3>
+      <p>Marathon Loading⏳. Love pushing limits and exploring new ways to stay active.</p>
+    </div>
+  </div>
+</section>
+
+
 <!-- Contact Section -->
 <section id="contact">
   <h2>Contact</h2>
-  <p>Feel free to reach out! You can email me at <a href="mailto:josua@email.com">josua.rutt@outlook.de</a>.</p>
+  <p>You can reach me via email: <a href="mailto:josua.rutt@outlook.de">josua.rutt@outlook.de</a></p>
+  <p>Or follow me on Instagram: <a href="https://www.instagram.com/josua_0607/" target="_blank">@josua_0607</a></p>
 </section>
 
 <!-- Footer -->
 <footer>
-  <p>© 2025 Josua. Designed with minimalism in mind.</p>
+  <p>© 2025 Josua. Designed with minimalism and creativity in mind.</p>
 </footer>
 
 <script src="script.js"></script>
