@@ -1,4 +1,4 @@
-# Josua's Portfolio
+# Josua's Portfolio iteration 1
 
 Willkommen auf meinem Portfolio! Hier zeige ich einige meiner Projekte, die ich während meiner Ausbildung als Student und Developer erstellt habe.
 
@@ -10,7 +10,7 @@ Willkommen auf meinem Portfolio! Hier zeige ich einige meiner Projekte, die ich 
 ## Online ansehen
 
 Du kannst die Portfolio-Website hier besuchen:  
-[Live-Website](https://Josua-08.github.io/Portfolio/)
+[Live-Website](https://Josua8-dev.github.io/Portfolio/)
 
 ---
 
@@ -29,16 +29,3 @@ Du kannst die Portfolio-Website hier besuchen:
 ---
 
 Danke fürs Reinschauen! 🚀
-
-*Wie man Änderungen rückgängig macht*: Falls du die obigen Änderungen zurücknehmen möchtest, kannst du lokal den Commit revertieren:
-
-```
-# Erstelle einen neuen Branch von main
-git checkout -b revert-fixes origin/main
-# Revertiere den Commit
-git revert 3c02a6abe9718d73b0f776ea81f0c6818573676d
-# Push und öffne einen PR, wenn gewünscht
-git push origin revert-fixes
-```
-
-Wenn du möchtest, kann ich auch einen PR mit alternativen Vorschlägen anlegen oder das Changelog anders strukturieren.
